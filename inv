@@ -1,0 +1,3 @@
+[all]
+54.152.191.7
+localhost ansible_connection = true
