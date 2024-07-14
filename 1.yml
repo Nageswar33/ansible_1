@@ -12,9 +12,9 @@
         state: started
         enabled: true
 
-    - name: Install nginx
-      hosts: all
-      become: true
-      roles:
-        - sample
+- name: Install nginx
+  hosts: all
+  become: true
+  roles:
+   - sample
 
