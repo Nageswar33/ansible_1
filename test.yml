@@ -1,0 +1,11 @@
+- name: Testing the Variables
+  hosts: all
+  become: true
+  vars:
+    name: "Nageswara Rao"
+
+    tasks:
+      - name: Printing the Variable
+        ansible.builtin.debug:
+          msg: " The Name is : {{name}} "
+
