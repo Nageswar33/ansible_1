@@ -8,5 +8,5 @@
     tasks:
       - name: Printing the Variable
         ansible.builtin.debug:
-          msg:  The Name is  {{ name }}
+          msg:  The Name is  {{ name1 }}
 
