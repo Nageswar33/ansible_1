@@ -4,6 +4,8 @@
   gather_facts: false
   vars:
     name1:
+      ansible.builtin.debug:
+        msg: "The Name is : {{ name1 }}"
   tasks:
    - name: Printing the Variable
      name1: Nageswara Rao"
