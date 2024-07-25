@@ -3,10 +3,10 @@
   connection: local
   gather_facts: false
   vars:
-    name1: "Nageswara Rao"
+    name1: Nageswara Rao
 
     tasks:
       - name: Printing the Variable
         ansible.builtin.debug:
-          msg:  The Name is  {{ name1 }}
+          msg:  "The Name is:  {{ name1 }}"
 
