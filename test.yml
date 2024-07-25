@@ -1,6 +1,7 @@
 - name: Testing the Variables
   hosts: localhost
   connection: local
+  gather_facts: false
   vars:
     name: "Nageswara Rao"
 
