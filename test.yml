@@ -6,6 +6,7 @@
     name1:
   tasks:
    - name: Printing the Variable
+     name1: Nageswara Rao"
      ansible.builtin.debug:
       msg:  "The Name is:  {{ name1 }}"
 
