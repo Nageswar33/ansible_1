@@ -3,7 +3,7 @@
   connection: local
   gather_facts: false
   vars:
-    name1: NageswaraRao
+    name1: Nageswara Rao
   tasks:
    - name: Printing the Variable
      ansible.builtin.debug:
