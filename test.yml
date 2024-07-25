@@ -3,7 +3,7 @@
   connection: local
   gather_facts: false
   vars:
-    name1: Nageswara Rao
+    name1: NageswaraRao
 
     tasks:
       - name: Printing the Variable
